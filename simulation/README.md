@@ -23,4 +23,6 @@
 
 3. 再次打开iTunes。选择`备份`->`本电脑`->`恢复备份` 。等待完成，自动重启手机，完成。
 
-![img0](https://raw.githubusercontent.com/WarwickZhang/Tips/master/simulation/img2.png)
+   ![img0](https://raw.githubusercontent.com/WarwickZhang/Tips/master/simulation/img2.png)
+
+4. 打开系统地图，随便选一个点就可以`Simulate Location`了！
