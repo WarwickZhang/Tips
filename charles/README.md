@@ -10,7 +10,7 @@
 
 实际上是chls.pro服务返回一个.pac文件，通过.pac文件自动配置。那么我自己写一个pac是不是就可以满足QA的需求了呢？
 
-查阅pac文件相关[cisco](http://www.cisco.com/c/en/us/td/docs/security/web_security/connector/connector2972/PACAP.html) 写了个pac文件，自己再搭个[python](https://docs.python.org/2/library/simplehttpserver.html)本地服务器，搞定。
+查阅pac文件相关[文档](http://www.cisco.com/c/en/us/td/docs/security/web_security/connector/connector2972/PACAP.html) 写了个pac文件，自己再搭个[python](https://docs.python.org/2/library/simplehttpserver.html)本地服务器，搞定。
 
 
 
@@ -46,3 +46,6 @@ function FindProxyForURL(url, host) {
 输入`http://<your ip address>:8000/chls.pac`
 
 ##### 4.enjoy it!😄
+
+
+**当然，你也可以把配置放在远程服务器上，本地写一个同步ip的[脚本](https://github.com/WarwickZhang/Tips/blob/master/charles/upload.py)**
